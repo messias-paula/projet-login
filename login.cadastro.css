@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+}
+
+
+body{
+background-image: url(https://lh3.googleusercontent.com/yPMCBCXbdpnIHs2OMyHd0jFV8R5lB9p-tg4WkDm3LXHGfyvUcgLdZ_ZFeAIPdR3xV2c_JGXUpT5NjQQlXAkie95E7cB5EizaPuEVnkwKOMezsYJx9f-aEcyfPslyTe9FzT8eMYiNVCZkKyoJCKviVkOMwtcqnoCm8o82Pe26YItuPh3sW-o5aLF6UCAXshgwdkqVhqYSOko-twJuZRABwYvDkb8nn5AAoTMgSu1Y_s9KptLDNBT_sClSMgXn_Lpq4owj_c9jdiGil8cf0xzWMJRwGXAZhx5XJvLzlK7Rbl55sCuWRH1YNgUr-3MiRDK_XaZUp-5B6nAwc8RE4i_GRPbmfKhTwg8NKeRCpYK86h5jbESiBJWeIprXqfQlm2CUxYQ9UuYicNuup3OJ8PyGjYRkJw47BOfUwUdVglwNrgzmomlK4Qyg6dOGn3OhIakzQWzwED2aeNxbFc3_fkjZawcwZcc_u04LfuX-sO5KcasTj_8Bh768EnaSacfqVmJmvoHzYgaCo30MPYrPmkqhONgEONg6Fe8d38Wz1ctxdshxMpoH1dWl9Ez65oVN8O4vi2ph1mO_hQxTnbhw3du6RpG4HbiAGFRbhE5t4bx8kRFf-FeayrIAHpZX4PXFIUh7jfXtfTfNrfF1eqFEX3RBmL-iWsNQVgm32WnIXx-bZ2EmAYB6VBwcVYF17xanmblmTGLisQ9lAo68ajnYkzdZIfAQkQmqPHmH0yeov66zVeN8owU0W3onaLOfkj3bfup_PIwgEmmx2IbIhjkHGJsO3lRsTA1i9MhlLuloKBWRx9AOBCdP2xHNitZurCSofXdU59q9kRLRvHrrL9EtWSuDQ8wQcSxq7Yu8WpIW1I4N071YJ5nHKqfSZa-AKgSoKQu8HzaBrtVZRIwD6PCxJcSjpWUe4_FKmOkmkX7A-76gGlv4eSsDWeAo9QEbRbe1QsjZH3em7bi9s4ytFKRA06Q=w1013-h625-no?authuser=0);
+background-repeat: no-repeat;
+background-size:  cover;
+background-attachment: fixed;
+}
+.container {
+    display: flex;
+    justify-content: left;
+    width: 200%;
+    margin-top: 50px;
+}
+.card{
+
+    background-color: #ffffff60;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #00000060;
+    width: 400px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+.label-float input{
+
+    width: 100%;
+    padding:8px 8px ;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #00000060;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+
+    
+}
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.label-float input:focus{
+
+    border-bottom: 2px solid#ffffff60;
+}
+ .label-float table{
+    color: #00000060;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+ }
+ .label-float input:focus + label,
+ .label-float input:valid + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: #00000060;
+ }
+ button{
+    background-color:transparent ;
+    border-color:aqua ;
+    color: rgb(0, 0, 0);
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 20;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+ }
+ button:hover{
+    background-color: aqua;
+}
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+.fa-eye{
+
+    position: absolute;
+    top: 15px;
+    right: 10%;
+    cursor: pointer;
+    color: blue;
+
+}
