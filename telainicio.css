@@ -1,0 +1,63 @@
+    h1{
+        
+
+            font: 700 4em/1 "Oswald", sans-serif;
+            letter-spacing: 0;
+            padding: .25em 0 .325em;
+            display: block;
+            margin: 0 auto;
+            text-shadow: 0 0 80px rgba(255, 0, 0, 0.5);
+      
+      /* Clip Background Image */
+      
+            background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+            -webkit-background-clip:  text;
+            background-clip: text;
+      
+      /* Animate Background Image */
+      
+            -webkit-text-fill-color: transparent;
+            -webkit-animation: aitf 80s linear infinite;
+      
+      /* Activate hardware acceleration for smoother animations */
+      
+            -webkit-transform: translate3d(0,0,0);
+            -webkit-backface-visibility: hidden;
+      
+        }
+      
+      
+      /* Animate Background Image */
+      
+      @-webkit-keyframes aitf {
+          0% { background-position: 0% 50%; }
+          100% { background-position: 100% 50%; }
+      }
+    
+      body{
+
+            width: 100%;
+            height: 150px;
+            background: linear-gradient(0, #5950b8, #3a3a3a);
+            background-attachment: fixed;
+            background-size: cover;
+            
+          }
+          .container{
+           
+            margin: 0 auto;
+            width:960px;
+            }
+            body {
+                  font-family: 'lucida grande ', 'lucida san unicode', verdana,
+                  sans-serif;
+                  line-height: 1.6;
+           }
+           .place{
+              border-color: cadetblue;
+              border:1px solid rgb(78, 70, 70);
+              margin-bottom: 20px;
+              padding: 10 px;
+           }
+           
+        
